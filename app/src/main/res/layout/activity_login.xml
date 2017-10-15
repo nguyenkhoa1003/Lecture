@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="20dp"
+              tools:context="com.laptrinhandroid.lecture.LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:scaleType="center"
+        android:src="@drawable/twitter"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Email or phone"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColorHint="#AAAAAA"/>
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:text=""
+        android:textColorHint="#AAAAAA"/>
+
+    <Button
+        android:id="@+id/btnLogIn"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="Log in"
+        android:textColor="#AAAAAA"/>
+
+    <TextView
+        android:layout_marginTop="160dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign up for Facebook"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot password"
+        android:textColor="#ffffff"
+        android:gravity="center"/>
+</LinearLayout>
